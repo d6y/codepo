@@ -6,8 +6,6 @@ scalaVersion := "2.10.2"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
 
-seq(webSettings :_*)
-
 libraryDependencies ++= {
   Seq(
 	  "org.specs2" %% "specs2" % "2.0" % "test"
