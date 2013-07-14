@@ -8,6 +8,7 @@ scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
 
 libraryDependencies ++= {
   Seq(
+      "net.sf.opencsv" % "opencsv" % "2.0",
 	  "org.specs2" %% "specs2" % "2.0" % "test"
   )
 }
